@@ -1,7 +1,7 @@
 /*
 COP3014: Programmming II
-Lecture 02: Data Types and Arithmetic (Reference: "Problem Solving with C++", Walter Savitch)
-Instructor: Sareh Taebi
+Data Types and Arithmetic
+Sagor Ahmmed
 */
 
 #include <iostream>
