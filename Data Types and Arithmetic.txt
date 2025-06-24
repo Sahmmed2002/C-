@@ -1,0 +1,82 @@
+/*
+COP3014: Programmming II
+Lecture 02: Data Types and Arithmetic (Reference: "Problem Solving with C++", Walter Savitch)
+Instructor: Sareh Taebi
+*/
+
+#include <iostream>
+#include <string>     //needed for type string
+
+using namespace std;
+
+int main()
+{
+    //program I : char practice
+//    char symbol1, symbol2, symbol3;
+////    //prompt
+//    cout << "Enter two initials, without any periods:\n";
+//    cin >> symbol1 >> symbol2;
+////
+////    //echo back the input
+////    cout << "The two initials are:\n";
+////    cout << symbol1 << symbol2 << endl;
+////
+////
+////    cout << "Once more with a space:\n";
+////    symbol3 = ' ';
+////    cout << symbol1 << symbol3 << symbol2 << endl;
+////    cout << "That's all.\n";
+
+//    //program II : string practice
+//    string middle_name, pet_name;
+//    string alter_ego_name;
+//    cout << "Enter your middle name and the name of your pet separated by a space/enter.\n";
+//    cin >> middle_name;
+//    cin >> pet_name;
+//
+//    //good example of classes and their operations. Because string is a class, it supports the + sign
+//    alter_ego_name = pet_name + " " + middle_name;  //addition is a functionality of class string
+//
+//    cout << "The name of your alter ego is ";
+//    cout << alter_ego_name << "." << endl;
+////
+//    program III : other data types
+//    auto x = 2.4 *10.24;
+//    auto y = 366e6;
+//    bool hi = 'b';
+//    cout <<"\ndata types " << sizeof(x) << "\t" << y << "\t" << hi << endl;
+
+//    //program IV: Arithmetic
+//    double divisor, dividend, quotient;
+//    divisor = 3.0;
+//    dividend = 5.0;
+//    quotient = dividend / divisor;
+//    cout << "\narithmetic result: " << quotient << endl;
+
+
+
+    char symbol, symbol2, symbol3;
+    cout<<"Enter two initials, without any periods:\n";
+    cin>>symbol>>symbol2;
+    cout<<"The two initials are: ";
+    cout<<symbol<<symbol2<<endl;
+
+    cout<<"one more with space: ";
+    symbol3=' ';
+    cout<<symbol<<symbol2<<symbol3<<endl;
+    cout << "That's all and goodbye.\n";
+
+    string middle_name, pet_name;
+    string alter_ego_name;
+
+    cout<<"Enter your pet middle name: ";
+    cin>>middle_name;
+
+    cout<<"Enter your pet name: ";
+    cin>>pet_name;
+
+    alter_ego_name = middle_name +" "+pet_name;
+    cout<<"The full name of your pet is "<<alter_ego_name<<".";
+
+      return 0;
+}
